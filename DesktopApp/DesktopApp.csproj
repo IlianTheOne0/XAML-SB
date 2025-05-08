@@ -1,0 +1,136 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Fonts\Roboto\Roboto-Black.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto-BlackItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto-Bold.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto-BoldItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto-ExtraBold.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto-ExtraBoldItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto-ExtraLight.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto-ExtraLightItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto-Italic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto-Light.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto-LightItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto-Medium.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto-MediumItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto-Regular.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto-SemiBold.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto-SemiBoldItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto-Thin.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto-ThinItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_Condensed-Black.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_Condensed-BlackItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_Condensed-Bold.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_Condensed-BoldItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_Condensed-ExtraBold.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_Condensed-ExtraBoldItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_Condensed-ExtraLight.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_Condensed-ExtraLightItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_Condensed-Italic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_Condensed-Light.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_Condensed-LightItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_Condensed-Medium.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_Condensed-MediumItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_Condensed-Regular.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_Condensed-SemiBold.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_Condensed-SemiBoldItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_Condensed-Thin.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_Condensed-ThinItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-Black.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-BlackItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-Bold.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-BoldItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-ExtraBold.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-ExtraBoldItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-ExtraLight.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-ExtraLightItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-Italic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-Light.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-LightItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-Medium.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-MediumItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-Regular.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-SemiBold.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-SemiBoldItalic.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-Thin.ttf" />
+    <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-ThinItalic.ttf" />
+    <None Remove="Assets\Icons\logo.ico" />
+    <None Remove="Assets\Images\sign_in_image.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto-Black.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto-BlackItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto-Bold.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto-BoldItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto-ExtraBold.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto-ExtraBoldItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto-ExtraLight.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto-ExtraLightItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto-Italic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto-Light.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto-LightItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto-Medium.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto-MediumItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto-Regular.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto-SemiBold.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto-SemiBoldItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto-Thin.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto-ThinItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_Condensed-Black.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_Condensed-BlackItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_Condensed-Bold.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_Condensed-BoldItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_Condensed-ExtraBold.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_Condensed-ExtraBoldItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_Condensed-ExtraLight.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_Condensed-ExtraLightItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_Condensed-Italic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_Condensed-Light.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_Condensed-LightItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_Condensed-Medium.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_Condensed-MediumItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_Condensed-Regular.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_Condensed-SemiBold.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_Condensed-SemiBoldItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_Condensed-Thin.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_Condensed-ThinItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_SemiCondensed-Black.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_SemiCondensed-BlackItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_SemiCondensed-Bold.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_SemiCondensed-BoldItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_SemiCondensed-ExtraBold.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_SemiCondensed-ExtraBoldItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_SemiCondensed-ExtraLight.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_SemiCondensed-ExtraLightItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_SemiCondensed-Italic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_SemiCondensed-Light.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_SemiCondensed-LightItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_SemiCondensed-Medium.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_SemiCondensed-MediumItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_SemiCondensed-Regular.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_SemiCondensed-SemiBold.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_SemiCondensed-SemiBoldItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_SemiCondensed-Thin.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto\Roboto_SemiCondensed-ThinItalic.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="5.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Icons\logo.ico" />
+    <Resource Include="Assets\Images\sign_in_image.png" />
+  </ItemGroup>
+
+</Project>
