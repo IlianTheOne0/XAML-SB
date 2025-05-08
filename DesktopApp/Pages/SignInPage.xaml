@@ -33,7 +33,7 @@
                     HorizontalAlignment="Center"
                 >
                     <Image
-                        Source="/Assets/Images/sign_in_image.png" 
+                        Source="/Assets/Images/sign_image.png" 
                         Stretch="UniformToFill"
                     />
                 </Border>

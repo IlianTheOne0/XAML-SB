@@ -64,7 +64,6 @@
     <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-Thin.ttf" />
     <None Remove="Assets\Fonts\Roboto\Roboto_SemiCondensed-ThinItalic.ttf" />
     <None Remove="Assets\Icons\logo.ico" />
-    <None Remove="Assets\Images\sign_in_image.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -130,7 +129,7 @@
 
   <ItemGroup>
     <Resource Include="Assets\Icons\logo.ico" />
-    <Resource Include="Assets\Images\sign_in_image.png" />
+    <Resource Include="Assets\Images\sign_image.png" />
   </ItemGroup>
 
 </Project>
