@@ -67,7 +67,7 @@
             </StackPanel>
         </Viewbox>
 
-        <Grid Grid.Row="1" Grid.Column="1" Margin="60, 0, 60 0" VerticalAlignment="Center">
+        <Grid Grid.Row="1" Grid.Column="1" Margin="60, 0, 60, 0" VerticalAlignment="Center">
             <Rectangle
                 MinWidth="260"
                 MaxHeight="320"
@@ -132,7 +132,6 @@
 
                                 <Setter Property="materialDesign:TextFieldAssist.HasOutlinedTextField" Value="False"/>
                                 <Setter Property="materialDesign:TextFieldAssist.DecorationVisibility" Value="Hidden"/>
-                                <Setter Property="materialDesign:TextFieldAssist.TextBoxViewMargin" Value="10"/>
 
                                 <Setter Property="materialDesign:TextFieldAssist.UnderlineBrush" Value="#ABAAAA"/>
                                 <Setter Property="materialDesign:TextFieldAssist.TextFieldCornerRadius" Value="20"/>
@@ -167,7 +166,6 @@
 
                                     <Setter Property="materialDesign:TextFieldAssist.HasOutlinedTextField" Value="False"/>
                                     <Setter Property="materialDesign:TextFieldAssist.DecorationVisibility" Value="Hidden"/>
-                                    <Setter Property="materialDesign:TextFieldAssist.TextBoxViewMargin" Value="10"/>
 
                                     <Setter Property="materialDesign:TextFieldAssist.UnderlineBrush" Value="#ABAAAA"/>
                                     <Setter Property="materialDesign:TextFieldAssist.TextFieldCornerRadius" Value="20"/>
