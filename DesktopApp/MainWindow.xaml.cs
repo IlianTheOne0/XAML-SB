@@ -6,6 +6,6 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
-        this.Content = new Pages.SignInPage();
+        this.Content = new Pages.SignUpPage();
     }
 }
